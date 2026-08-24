@@ -7,12 +7,12 @@ Hệ thống tự động phát hiện (Detection) và đọc ký tự (OCR) tr�
 ```text
 ├── README.md
 ├── requirements.txt
-├── report/                 # Báo cáo
 ├── training/               # Code huấn luyện 2 mô hình YOLO (Detection + OCR)
 ├── evaluation/             # Code đánh giá mô hình trên tập test (Precision/Recall/mAP)
 ├── inference/              # Mã nguồn thực thi chính
 │   ├── main_laptop.py      # Chạy trên máy tính cá nhân (GPU NVIDIA RTX 3050 Ti)
 │   └── main_jetson.py      # Chạy trên NVIDIA Jetson Xavier NX
+└── report/                 # Báo cáo
 ```
 
 ## Môi trường và cài đặt

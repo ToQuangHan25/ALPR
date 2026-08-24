@@ -7,13 +7,14 @@ Hệ thống tự động phát hiện (detect) và đọc (OCR) biển số xe 
 ```
 ├── README.md
 ├── requirements.txt
-├── training/       # Code huấn luyện 2 model YOLO (detect + OCR)
-├── evaluation/      # Code đánh giá model trên tập test (Precision/Recall/mAP)
-├── inference/       # Code chạy chính
+├── report/                  # Báo cáo hệ thống
+├── training/                # Code huấn luyện 2 model YOLO (detect + OCR)
+├── evaluation/              # Code đánh giá model trên tập test (Precision/Recall/mAP)
+├── inference/               # Code chạy chính
 │   ├── main_laptop.py       # Chạy trên máy tính có GPU (laptop)
 │   └── main_jetson.py       # Chạy trên NVIDIA Jetson Xavier NX
-├── models/          # File model .pt (chưa export)
-└── results/         # Kết quả
+├── models/                  # File model .pt (chưa export)
+└── results/                 # Kết quả
 ```
 
 ## Môi trường và cài đặt

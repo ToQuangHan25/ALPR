@@ -1,0 +1,19 @@
+# Cài đặt (trên laptop / máy tính có GPU NVIDIA thông thường):
+#    pip install -r requirements.txt
+#
+# Lưu ý riêng cho NVIDIA Jetson (JetPack):
+# 1. KHÔNG dùng file này để cài torch/torchvision.
+#    Phải cài bản PyTorch wheel chuyên dụng do NVIDIA cung cấp cho JetPack:
+#    https://forums.developer.nvidia.com/t/pytorch-for-jetson
+# 2. TensorRT đã được tích hợp sẵn trong JetPack (không cài qua pip PyPI).
+# 3. Sau khi cài PyTorch cho Jetson, chạy: pip install ultralytics --no-deps
+
+ultralytics>=8.4.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0,<2.0.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+lapx>=0.5.5
+PyYAML>=6.0

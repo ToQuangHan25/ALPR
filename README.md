@@ -13,7 +13,6 @@ Hệ thống tự động phát hiện (Detection) và đọc ký tự (OCR) tr�
 ├── inference/              # Mã nguồn thực thi chính
 │   ├── main_laptop.py      # Chạy trên máy tính cá nhân (GPU NVIDIA RTX 3050 Ti)
 │   └── main_jetson.py      # Chạy trên NVIDIA Jetson Xavier NX
-├── models/                 # File mô hình (.pt)
 ```
 
 ## Môi trường và cài đặt

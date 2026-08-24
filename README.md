@@ -1,4 +1,5 @@
-# Hệ thống nhận diện và đọc chữ biển số xe (ALPR) trên thiết bị biên
+# Hệ thống nhận diện và đọc chữ biển số xe trên thiết bị biên theo thời gian thực
+# (Real-Time Automatic License Plate Recognition (ALPR) System on Edge Devices)
 
 Hệ thống tự động phát hiện (Detection) và đọc ký tự (OCR) trên biển số xe Việt Nam từ video theo thời gian thực, triển khai thử nghiệm trên hai môi trường: máy tính cá nhân (GPU NVIDIA RTX 3050 Ti) và thiết bị nhúng NVIDIA Jetson Xavier NX.
 

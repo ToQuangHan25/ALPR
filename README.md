@@ -27,9 +27,6 @@ pip install -r requirements.txt
 > **Lưu ý:** Trên NVIDIA Jetson, cần đảm bảo môi trường JetPack đã tích hợp sẵn **TensorRT** và cấu hình biến môi trường CUDA tương thích.
 
 ## 📥 Tải trọng số mô hình (Pretrained Weights)
-
-Do kích thước file lớn, các mô hình đã huấn luyện được lưu trữ trên Google Drive. Vui lòng tải về và đặt vào thư mục `models/`:
-
 - 🔗 **[Models & Weights](https://drive.google.com/drive/folders/1xycIrytTuCKtMx1VwIGukGR_5Zlrm51G?usp=drive_link)**
   - `best_license_plate_detection.pt` (Mô hình phát hiện biển số YOLO26m)
   - `best_license_plate_ocr.pt` (Mô hình nhận diện ký tự YOLO26m)

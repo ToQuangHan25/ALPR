@@ -14,7 +14,6 @@ Hệ thống tự động phát hiện (Detection) và đọc ký tự (OCR) tr�
 │   ├── main_laptop.py      # Chạy trên máy tính cá nhân (GPU NVIDIA RTX 3050 Ti)
 │   └── main_jetson.py      # Chạy trên NVIDIA Jetson Xavier NX
 ├── models/                 # File mô hình (.pt)
-└── results/                # Video kết quả thực nghiệm
 ```
 
 ## Môi trường và cài đặt
@@ -32,7 +31,7 @@ pip install -r requirements.txt
 
 Do kích thước file lớn, các mô hình đã huấn luyện được lưu trữ trên Google Drive. Vui lòng tải về và đặt vào thư mục `models/`:
 
-- 🔗 **Google Drive Folder (Models & Weights):** [Tải toàn bộ mô hình tại đây](https://drive.google.com/drive/folders/1xycIrytTuCKtMx1VwIGukGR_5Zlrm51G?usp=drive_link)
+- 🔗 **[Models & Weights](https://drive.google.com/drive/folders/1xycIrytTuCKtMx1VwIGukGR_5Zlrm51G?usp=drive_link)**
   - `best_license_plate_detection.pt` (Mô hình phát hiện biển số YOLO26m)
   - `best_license_plate_ocr.pt` (Mô hình nhận diện ký tự YOLO26m)
 
@@ -82,8 +81,7 @@ python inference/main_jetson.py
 | **Tốc độ xử lý (Processing FPS)** | ~57 – 63 FPS | ~13 – 18 FPS |
 | **Độ trễ xử lý (Latency)** | < 20 ms | ~40 – 260 ms |
 
-- **Demo Video:** [Xem video demo tại đây](DÁN_LINK_VIDEO_DEMO_TẠI_ĐÂY)
-- Ảnh minh họa quá trình nhận diện và ghép ký tự được lưu trữ tại thư mục `results/`.
+- **[Demo Video](DÁN_LINK_VIDEO_DEMO_TẠI_ĐÂY)**
 
 ## Hạn chế và hướng phát triển
 
